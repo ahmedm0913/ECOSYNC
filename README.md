@@ -15,119 +15,103 @@
 
 ## 🌿 Overview
 
-**ECOSYNC** is a smart embedded system designed to optimize energy usage in hotel rooms without compromising guest comfort. It contributes to Sri Lanka’s energy conservation goals by dynamically adjusting AC temperature based on guest presence. When the room is unoccupied, ECOSYNC conserves energy automatically — improving sustainability and reducing operating costs.
+**ECOSYNC** is an intelligent AC temperature regulator designed for hotel rooms. It dynamically adjusts the air conditioning temperature based on room occupancy — optimizing energy usage without sacrificing guest comfort.
 
----
-
-## 🎯 Why It Matters
-
-Sri Lanka continues to face energy shortages, and hotels consume a significant portion of their energy on air conditioning alone.
-
-> “Our hotel pays an average of LKR 9,800,000 per month on electricity. During test runs, optimizing AC usage reduced costs by up to 60%.”  
-> — *Mr. Akila, Lead Maintenance Engineer, Sophia Hotel Colombo*
+The system uses a **Keycard Presence Detector (KPD)** to detect guest presence and a paired **Air Conditioner Controller (ACC)** to communicate with the AC unit using IR signals. Together, they enable room-level energy conservation in real-time, fully automated.
 
 ---
 
 ## 🔧 Key Features
 
-| Feature                     | Description                                                                  |
-|----------------------------|------------------------------------------------------------------------------|
-| **Embedded Controller**    | ATmega328P-PU microcontroller-based system                                   |
-| **Wireless Control**       | Bluetooth (HC-05 & HC-06) for KPD ↔ ACC communication                        |
-| **AC Interface**           | IR emitter-based control for compatibility with common AC brands             |
-| **Smart Presence Detection**| IR-based keycard detection (avoids motion sensors)                          |
-| **Custom PCBs**            | Designed in Altium, housed in 3D printed enclosures                          |
-| **Two Modes**              | Eco Mode (25°C) and Luxury Mode (23°C) when guest is away                    |
+- 🔌 IR-based AC control for most commercial brands
+- 📶 Bluetooth communication between modules (HC-05 & HC-06)
+- 🧠 Embedded control using ATmega328P-PU microcontrollers
+- 🛠️ Fully custom PCBs (Altium), housed in 3D printed enclosures
+- 🧩 Modular design: KPD and ACC work as standalone units or as a system
+- 🌡️ Two preset energy modes: 25°C (Eco) and 23°C (Luxury)
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ Functionality
 
-1. Guest inserts/removes the room keycard.
-2. KPD detects presence and transmits signal to the AC Controller (ACC) via Bluetooth.
-3. ACC adjusts temperature settings using IR based on hotel-defined presets.
-4. When guest returns, temperature resumes previous setting for comfort.
+The system works as follows:
 
----
+1. Guest removes the keycard → KPD detects absence.
+2. KPD transmits signal via Bluetooth to the ACC.
+3. ACC sends IR signals to increase the room temperature.
+4. When the guest returns, normal AC behavior resumes.
 
-## 🧠 Technical Stack
-
-- **MCU:** ATmega328P-PU
-- **Bluetooth:** HC-05 (KPD), HC-06 (ACC)
-- **IR Modules:** TSOP + IR LEDs
-- **Design Tools:** Altium Designer, Arduino IDE
-- **Enclosure:** 3D printed cases (Fusion 360)
-- **Languages:** Embedded C (Arduino)
+<p align="center">
+  <img src="images/functionality-diagram.png" alt="Functionality Diagram" width="600"/>
+</p>
 
 ---
 
-## 📈 Achievements
+## 🧩 Hardware Modules
 
-🏆 This project was recognized in multiple national-level innovation competitions:
+### 🔷 Keycard Presence Detector (KPD)
 
-- 🥈 **Runners-up** – Techno Spark 2024 (IESL)  
-- 🥈 **Runners-up** – GAP Circularity Challenge 2025 (INSEE)  
-- 🥉 **2nd Runners-up** + 🏆 *Most Popular Innovation* – Future Innovation Challenge 2025 (IEEE Student Branch)  
+- **Top View**  
+  <p align="center"><img src="images/kpd-top.jpg" alt="KPD Top View" width="300"/></p>
 
----
-
-## 📦 Business Model
-
-| Revenue Stream                     | Description                                                             |
-|------------------------------------|-------------------------------------------------------------------------|
-| Installation Fees                  | Per-room installation and hardware deployment                          |
-| Subscription/Maintenance          | Software updates, analytics, troubleshooting                           |
-| Energy Efficiency Consulting       | Tailored audits for hotel partners                                     |
-| Partnerships                       | HVAC integrators, property managers, hotel suppliers                    |
+- **Bottom View**  
+  <p align="center"><img src="images/kpd-bottom.jpg" alt="KPD Bottom View" width="300"/></p>
 
 ---
 
-## 🚀 Future Vision
+### 🔶 AC Controller (ACC)
 
-- 📍 Expand to additional hotel chains and public buildings  
-- 🔬 Integrate AI-powered dynamic scheduling and temperature optimization  
-- 📱 Add support for mobile app control and voice assistants  
-- 🌐 Commercial licensing for building automation platforms
+- **Top View**  
+  <p align="center"><img src="images/acc-top.jpg" alt="ACC Top View" width="300"/></p>
 
----
-
-## 🧑‍💻 Role and Contributions
-
-**Led by:** Team Leader – [Your Name]  
-- Coordinated team efforts and technical planning  
-- Designed the improved PCB versions for KPD and ACC  
-- Developed project brand, pitch strategy, and business roadmap  
-- Presented the project at multiple competitions and demo days
+- **Bottom View**  
+  <p align="center"><img src="images/acc-bottom.jpg" alt="ACC Bottom View" width="300"/></p>
 
 ---
 
-## 🖼️ Screenshots & Media
+## 🗂️ Schematics
 
-| Prototype Unit | System Diagram | Demo Installation |
-|----------------|----------------|-------------------|
-| ![Device](images/device-photo.jpg) | ![Diagram](images/system-diagram.png) | ![Demo](images/demo.gif) |
+- **KPD Schematic**  
+  <p align="center"><img src="images/kpd-schematic.png" alt="KPD Schematic" width="500"/></p>
+
+- **ACC Schematic**  
+  <p align="center"><img src="images/acc-schematic.png" alt="ACC Schematic" width="500"/></p>
+
+---
+
+## 🖼️ Final Prototype Photos
+
+- **Assembled Devices (Front)**  
+  <p align="center"><img src="images/final-product-front.jpg" alt="Final Product Front View" width="400"/></p>
+
+- **Assembled Devices (Side/Angle)**  
+  <p align="center"><img src="images/final-product-side.jpg" alt="Final Product Side View" width="400"/></p>
+
+---
+
+## 🎬 Demo Video
+
+Watch the full demo here:  
+🔗 [`ECOSYNC Demo Video`](./videos/demo.mp4)
+
+---
+
+## 🧑‍💻 Team & Credits
+
+**Team:** SocketBurners – University of Moratuwa  
+**Role:** [Your Name] – Team Lead  
+- PCB design (KPD & ACC)
+- Embedded logic and testing
+- Business pitch, coordination & branding
 
 ---
 
 ## 🙋 About the Developer
 
-Third-year Electronics & Telecommunication Engineering undergraduate at the University of Moratuwa. Focused on analog and mixed-signal circuit design, with experience in PCB development, hardware simulation, and system integration. Currently exploring open-source IC tools and machine learning as secondary interests.
-
----
-
-## 📄 Documentation
-
-- 📂 [Pitch Deck (PDF)](docs/ECOSYNC_Pitch.pdf)  
-- 📁 PCB schematics and source code (see folders above)
-
----
-
-## 📬 Contact
-
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/yourprofile) or open an issue in this repo.
+Third-year Electronics & Telecommunication Engineering undergraduate at the University of Moratuwa. Focused on analog and mixed-signal circuit design, with experience in PCB development, simulation, and hardware integration. Currently exploring open-source IC tools and machine learning as a secondary interest.
 
 ---
 
 <p align="center">
-  <em>Designed with purpose. Built for sustainability. Engineered by SocketBurners.</em>
+  <em>Built for energy efficiency. Engineered by SocketBurners.</em>
 </p>
