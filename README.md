@@ -1,106 +1,133 @@
-# 🌿 ECOSYNC – An Automated Intelligent AC Temperature Regulator
+<p align="center">
+  <img src="images/ecosync-logo.png" alt="ECOSYNC Logo" width="200"/>
+</p>
 
-![ECOSYNC Banner](images/banner.png) <!-- Replace with your own image -->
+<h1 align="center">ECOSYNC</h1>
+<h3 align="center">An Automated Intelligent AC Temperature Regulator</h3>
 
-ECOSYNC is a smart embedded system designed to **optimize air-conditioning energy usage in hotel rooms** without compromising guest comfort. It directly supports Sri Lanka’s energy conservation goals by dynamically adjusting AC temperature based on guest presence — striking a balance between **technical innovation**, **user-centric design**, and **business practicality**.
+<p align="center">
+  <img src="images/socketburners-logo.png" alt="SocketBurners Logo" width="120"/>
+  <br/>
+  <strong>Team SocketBurners – University of Moratuwa</strong>
+</p>
 
 ---
 
-## 🎯 Project Summary
+## 🌿 Overview
 
-> 🏨 **"Hotels in Sri Lanka face significant electricity costs, with air conditioning being a major contributor."**  
-> ECOSYNC reduces waste by monitoring room occupancy via **keycard presence**, automatically switching AC modes when the guest leaves — all without manual staff input.
+**ECOSYNC** is a smart embedded system designed to optimize energy usage in hotel rooms without compromising guest comfort. It contributes to Sri Lanka’s energy conservation goals by dynamically adjusting AC temperature based on guest presence. When the room is unoccupied, ECOSYNC conserves energy automatically — improving sustainability and reducing operating costs.
 
-- 📆 **Timeline:** Aug 2024 – Jun 2025  
-- 🎓 **Institution:** University of Moratuwa  
-- 📂 **Project Type:** Academic + Entrepreneurial Capstone
+---
+
+## 🎯 Why It Matters
+
+Sri Lanka continues to face energy shortages, and hotels consume a significant portion of their energy on air conditioning alone.
+
+> “Our hotel pays an average of LKR 9,800,000 per month on electricity. During test runs, optimizing AC usage reduced costs by up to 60%.”  
+> — *Mr. Akila, Lead Maintenance Engineer, Sophia Hotel Colombo*
 
 ---
 
 ## 🔧 Key Features
 
-| Component                     | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
-| **Microcontroller**          | ATmega328P-PU-based embedded system                                         |
-| **Communication**            | Bluetooth (HC-05 & HC-06 modules)                                           |
-| **AC Control**               | IR emitter-based transmission of control signals to AC units                |
-| **Presence Detection**       | IR-based keycard detection (no motion sensors needed)                       |
-| **Custom PCBs**              | Designed in Altium Designer, housed in 3D printed enclosures                |
-| **Modular Design**           | Two-unit system: Keycard Presence Detector (KPD) and AC Controller (ACC)    |
-| **Power Modes**              | - *Eco Mode:* Raise to 25°C  
-                               - *Luxury Mode:* Raise to 23°C on vacancy                                    |
+| Feature                     | Description                                                                  |
+|----------------------------|------------------------------------------------------------------------------|
+| **Embedded Controller**    | ATmega328P-PU microcontroller-based system                                   |
+| **Wireless Control**       | Bluetooth (HC-05 & HC-06) for KPD ↔ ACC communication                        |
+| **AC Interface**           | IR emitter-based control for compatibility with common AC brands             |
+| **Smart Presence Detection**| IR-based keycard detection (avoids motion sensors)                          |
+| **Custom PCBs**            | Designed in Altium, housed in 3D printed enclosures                          |
+| **Two Modes**              | Eco Mode (25°C) and Luxury Mode (23°C) when guest is away                    |
 
 ---
 
-## 🧠 How It Works
+## ⚙️ How It Works
 
-1. **Guest inserts/removes room keycard**
-2. KPD detects presence → sends Bluetooth signal to ACC
-3. ACC adjusts AC using IR signals based on mode preset
-4. Temperature changes to save power when room is unoccupied
-
-> All logic and control are handled internally on the embedded system — no cloud dependency.
+1. Guest inserts/removes the room keycard.
+2. KPD detects presence and transmits signal to the AC Controller (ACC) via Bluetooth.
+3. ACC adjusts temperature settings using IR based on hotel-defined presets.
+4. When guest returns, temperature resumes previous setting for comfort.
 
 ---
 
-## 🏆 Achievements
+## 🧠 Technical Stack
 
-- 🥈 **Runners-up** – *Techno Spark 2024*, Startup Challenge by IESL  
-- 🥈 **Runners-up** – *GAP Circularity Challenge 2025*, organised by INSEE  
-- 🥉 **2nd Runners-up** + 🏆 *Most Popular Innovation* – *Future Innovation Challenge 2025*, IEEE Student Branch  
-
----
-
-## 💼 Leadership & Contributions
-
-- 👨‍💼 **Role:** Team Leader  
-  - Led project coordination, pitch development, and strategy  
-  - Oversaw brand identity and presentation materials  
-- 🛠️ **Technical Contribution:**  
-  - Designed second-gen PCBs for KPD and ACC modules  
-  - Refined embedded logic and system-level integration  
-  - Contributed to go-to-market planning: mobile control, AI scheduling, and voice automation
+- **MCU:** ATmega328P-PU
+- **Bluetooth:** HC-05 (KPD), HC-06 (ACC)
+- **IR Modules:** TSOP + IR LEDs
+- **Design Tools:** Altium Designer, Arduino IDE
+- **Enclosure:** 3D printed cases (Fusion 360)
+- **Languages:** Embedded C (Arduino)
 
 ---
 
-## 💼 Business Model & Sustainability
+## 📈 Achievements
 
-- **Target Market:** Hotels and resorts with centralized or individual room AC units  
-- **Revenue Streams:**
-  - Installation + hardware cost  
-  - Subscription for maintenance/updates  
-  - Energy efficiency consulting services
+🏆 This project was recognized in multiple national-level innovation competitions:
 
-> Designed to scale across hospitality infrastructure while contributing to Sri Lanka’s sustainable energy transition.
+- 🥈 **Runners-up** – Techno Spark 2024 (IESL)  
+- 🥈 **Runners-up** – GAP Circularity Challenge 2025 (INSEE)  
+- 🥉 **2nd Runners-up** + 🏆 *Most Popular Innovation* – Future Innovation Challenge 2025 (IEEE Student Branch)  
 
 ---
 
-## 🛠️ Tech Stack
+## 📦 Business Model
 
-- **Hardware:** ATmega328P-PU, IR Sensors, Bluetooth (HC-05/HC-06), Custom PCBs  
-- **Design Tools:** Altium Designer, Fusion 360 (for enclosures), Arduino IDE  
-- **Communication:** Serial Bluetooth, IR protocols for major AC brands
+| Revenue Stream                     | Description                                                             |
+|------------------------------------|-------------------------------------------------------------------------|
+| Installation Fees                  | Per-room installation and hardware deployment                          |
+| Subscription/Maintenance          | Software updates, analytics, troubleshooting                           |
+| Energy Efficiency Consulting       | Tailored audits for hotel partners                                     |
+| Partnerships                       | HVAC integrators, property managers, hotel suppliers                    |
 
 ---
 
-## 📷 Media
+## 🚀 Future Vision
 
-| Device | System Diagram | Prototype Demo |
-|--------|----------------|----------------|
-| ![Device](images/device_photo.jpg) | ![Diagram](images/system_diagram.png) | ![Demo](images/demo_photo.gif) |
+- 📍 Expand to additional hotel chains and public buildings  
+- 🔬 Integrate AI-powered dynamic scheduling and temperature optimization  
+- 📱 Add support for mobile app control and voice assistants  
+- 🌐 Commercial licensing for building automation platforms
+
+---
+
+## 🧑‍💻 Role and Contributions
+
+**Led by:** Team Leader – [Your Name]  
+- Coordinated team efforts and technical planning  
+- Designed the improved PCB versions for KPD and ACC  
+- Developed project brand, pitch strategy, and business roadmap  
+- Presented the project at multiple competitions and demo days
+
+---
+
+## 🖼️ Screenshots & Media
+
+| Prototype Unit | System Diagram | Demo Installation |
+|----------------|----------------|-------------------|
+| ![Device](images/device-photo.jpg) | ![Diagram](images/system-diagram.png) | ![Demo](images/demo.gif) |
 
 ---
 
 ## 🙋 About the Developer
 
-Third-year Electronics & Telecommunication Engineering undergraduate at the University of Moratuwa. Focused on analog and mixed-signal circuit design, with experience in PCB development, simulation, and hardware integration. Currently exploring open-source IC tools and machine learning as a secondary interest. Passionate about sustainable tech solutions and hardware innovation.
+Third-year Electronics & Telecommunication Engineering undergraduate at the University of Moratuwa. Focused on analog and mixed-signal circuit design, with experience in PCB development, hardware simulation, and system integration. Currently exploring open-source IC tools and machine learning as secondary interests.
 
 ---
 
-## 🤝 Contact
+## 📄 Documentation
 
-- 📬 Reach out via [LinkedIn](https://www.linkedin.com/in/yourprofile) or open an Issue on this repository.  
-- 📄 Full project pitch deck: [`ECOSYNC_Pitch.pdf`](./docs/ECOSYNC_Pitch.pdf)
+- 📂 [Pitch Deck (PDF)](docs/ECOSYNC_Pitch.pdf)  
+- 📁 PCB schematics and source code (see folders above)
 
 ---
 
+## 📬 Contact
+
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/yourprofile) or open an issue in this repo.
+
+---
+
+<p align="center">
+  <em>Designed with purpose. Built for sustainability. Engineered by SocketBurners.</em>
+</p>
