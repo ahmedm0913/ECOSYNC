@@ -42,7 +42,7 @@ The system works as follows:
 4. When the guest returns, normal AC behaviour resumes.
 
 <p align="center">
-  <img src="Final.png" width="600"/>
+  <img src="Final.png" width="1000"/>
 </p>
 
 ---
