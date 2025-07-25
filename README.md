@@ -71,11 +71,11 @@ The system works as follows:
 
 ## 🗂️ Schematics
 
-<p align="center">
-  <img src="kpd_schem.png" alt="KPD Schematic" width="48%"/>
-  <img src="acc_schem.png" alt="ACC Schematic" width="48%"/>
-</p>
+- **KPD Schematic**  
+  <p align="center"><img src="kpd_schem.png" alt="KPD Schematic" width="800"/></p>
 
+- **ACC Schematic**  
+  <p align="center"><img src="acc_schem.png" alt="ACC Schematic" width="800"/></p>
 ---
 
 ## 🖼️ Final Prototype Photos
@@ -89,7 +89,7 @@ The system works as follows:
 
 ---
 
-## 👥 Team & Experience
+## Experience
 
 We began this project during our **second semester**, starting with basic concepts and gradually building a working prototype.  
 
@@ -99,9 +99,9 @@ We began this project during our **second semester**, starting with basic concep
 - The project involved many **overnight development sessions**, balancing technical work and team coordination.  
 
 <p align="center">
-  <img src="team-photo.jpg" alt="Team SocketBurners" width="500"/>
+  <img src="484904085_122127235142612800_2873341187870754367_n (1).jpg" alt="Team SocketBurners" width="500"/>
   <br/>
-  <em>Team SocketBurners during development</em>
+  <em>Team SocketBurners</em>
 </p>
 
 ---
@@ -126,19 +126,16 @@ Watch the full demo here:
 ## 🧑‍💻 Team & Credits
 
 **Team:** SocketBurners – University of Moratuwa  
-**Role:** [Your Name] – Team Lead  
+<p align="center">
+  <img src="484904085_122127235142612800_2873341187870754367_n (1).jpg" alt="Team SocketBurners" width="500"/>
+  <br/>
+  <em>Team SocketBurners</em>
+</p>
+**My Role:** – Leadign the team and mainly responsible for,  
 - PCB design (KPD & ACC)
-- Embedded logic and testing
-- Business pitch, coordination & branding
-
+- Brand Designing
+- Business pitching
 ---
-
-## 🙋 About the Developer
-
-Third-year Electronics & Telecommunication Engineering undergraduate at the University of Moratuwa. Focused on analog and mixed-signal circuit design, with experience in PCB development, simulation, and hardware integration. Currently exploring open-source IC tools and machine learning as a secondary interest.
-
----
-
 <p align="center">
   <em>Built for energy efficiency. Engineered by SocketBurners.</em>
 </p>
