@@ -139,8 +139,9 @@ We began this project during our **second semester**, starting with basic concep
 
 **Team:** SocketBurners  
 3rd Year Electronics & Telecommunication Engineering Undergraduates  
+**University of Moratuwa**  
 [👉 View All Contributors](https://github.com/ahmedm0913/ECOSYNC/graphs/contributors)  
-**University of Moratuwa**
+
 
 <p align="center">
   <img src="484904085_122127235142612800_2873341187870754367_n (1).jpg" alt="Team SocketBurners" width="500"/>
