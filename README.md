@@ -122,7 +122,7 @@ We began this project during our **second semester**, starting with basic concep
   🔗 [ECOSYNC Code](Code) <!-- Replace with actual code folder or file link -->
 
 - 📄 **Project Documents:**  
-  🔗 [ECOSYNC Documents](Final Report.pdf) <!-- Replace with actual documents folder or file link -->
+  🔗 [ECOSYNC Documents](Final_Report.pdf) <!-- Replace with actual documents folder or file link -->
 
 ---
 
