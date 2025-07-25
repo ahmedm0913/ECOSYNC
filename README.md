@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="200"/>
+  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="500"/>
 </p>
 
 <h1 align="center">ECOSYNC</h1>
