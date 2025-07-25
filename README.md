@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="500"/>
+  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="700"/>
 </p>
 
 <h1 align="center">ECOSYNC</h1>
 <h3 align="center">An Automated Intelligent AC Temperature Regulator</h3>
 
 <p align="center">
-  <img src="SocetBurners.png" alt="SocketBurners Logo" width="300"/>
+  <img src="SocetBurners.png" alt="SocketBurners Logo" width="500"/>
   <br/>
   <strong>Team SocketBurners – University of Moratuwa</strong>
 </p>
@@ -62,29 +62,29 @@ The system works as follows:
 ### 🔶 AC Controller (ACC)
 
 - **Top View**  
-  <p align="center"><img src="sm_black_top.png" alt="ACC Top View" width="300"/></p>
+  <p align="center"><img src="sm_black_top.png" alt="ACC Top View" width="500"/></p>
 
 - **Bottom View**  
-  <p align="center"><img src="sm_black_bottom.png" alt="ACC Bottom View" width="300"/></p>
+  <p align="center"><img src="sm_black_bottom.png" alt="ACC Bottom View" width="500"/></p>
 
 ---
 
 ## 🗂️ Schematics
 
 - **KPD Schematic**  
-  <p align="center"><img src="kpd_schem.png" alt="KPD Schematic" width="700"/></p>
+  <p align="center"><img src="kpd_schem.png" alt="KPD Schematic" width="800"/></p>
 
 - **ACC Schematic**  
-  <p align="center"><img src="acc_schem.png" alt="ACC Schematic" width="700"/></p>
+  <p align="center"><img src="acc_schem.png" alt="ACC Schematic" width="800"/></p>
 
 ---
 
 ## 🖼️ Final Prototype Photos
 
 - **Assembled Devices**  
-  <p align="center"><img src="IMG-20240829-WA0019.jpg" width="400"/></p>
+  <p align="center"><img src="IMG-20240829-WA0019.jpg" width="600"/></p>
   
-  <p align="center"><img src="IMG-20240829-WA0081.jpg" width="400"/></p>
+  <p align="center"><img src="IMG-20240829-WA0081.jpg" width="600"/></p>
 
 ---
 
