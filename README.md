@@ -6,7 +6,7 @@
 <h3 align="center">An Automated Intelligent AC Temperature Regulator</h3>
 
 <p align="center">
-  <img src="SocetBurners.png" alt="SocketBurners Logo" width="120"/>
+  <img src="SocetBurners.png" alt="SocketBurners Logo" width="300"/>
   <br/>
   <strong>Team SocketBurners – University of Moratuwa</strong>
 </p>
@@ -15,9 +15,9 @@
 
 ## 🌿 Overview
 
-**ECOSYNC** is an intelligent AC temperature regulator designed for hotel rooms. It dynamically adjusts the air conditioning temperature based on room occupancy — optimizing energy usage without sacrificing guest comfort.
+**ECOSYNC** is an intelligent AC temperature regulator designed for hotel rooms. It dynamically adjusts the air conditioning temperature based on room occupancy, optimising energy usage without compromising guest comfort.
 
-The system uses a **Keycard Presence Detector (KPD)** to detect guest presence and a paired **Air Conditioner Controller (ACC)** to communicate with the AC unit using IR signals. Together, they enable room-level energy conservation in real-time, fully automated.
+The system uses a **Keycard Presence Detector (KPD)** to detect guest presence and a paired **Air Conditioner Controller (ACC)** to communicate with the AC unit using IR signals. Together, they enable room-level energy conservation in real-time, providing fully automated control.
 
 ---
 
@@ -37,55 +37,54 @@ The system uses a **Keycard Presence Detector (KPD)** to detect guest presence a
 The system works as follows:
 
 1. Guest removes the keycard → KPD detects absence.
-2. KPD transmits signal via Bluetooth to the ACC.
+2. KPD transmits a signal via Bluetooth to the ACC.
 3. ACC sends IR signals to increase the room temperature.
-4. When the guest returns, normal AC behavior resumes.
+4. When the guest returns, normal AC behaviour resumes.
 
 <p align="center">
-  <img src="images/functionality-diagram.png" alt="Functionality Diagram" width="600"/>
+  <img src="Final.png" width="600"/>
 </p>
 
 ---
 
-## 🧩 Hardware Modules
+## 🧩 Printed Circuit Boards
 
 ### 🔷 Keycard Presence Detector (KPD)
 
 - **Top View**  
-  <p align="center"><img src="images/kpd-top.jpg" alt="KPD Top View" width="300"/></p>
+  <p align="center"><img src="sm_black_top (1).png" alt="KPD PCB" width="500"/></p>
 
 - **Bottom View**  
-  <p align="center"><img src="images/kpd-bottom.jpg" alt="KPD Bottom View" width="300"/></p>
+  <p align="center"><img src="sm_black_bottom (1).png" alt="KPD Bottom View" width="500"/></p>
 
 ---
 
 ### 🔶 AC Controller (ACC)
 
 - **Top View**  
-  <p align="center"><img src="images/acc-top.jpg" alt="ACC Top View" width="300"/></p>
+  <p align="center"><img src="sm_black_top.png" alt="ACC Top View" width="300"/></p>
 
 - **Bottom View**  
-  <p align="center"><img src="images/acc-bottom.jpg" alt="ACC Bottom View" width="300"/></p>
+  <p align="center"><img src="sm_black_bottom.png" alt="ACC Bottom View" width="300"/></p>
 
 ---
 
 ## 🗂️ Schematics
 
 - **KPD Schematic**  
-  <p align="center"><img src="images/kpd-schematic.png" alt="KPD Schematic" width="500"/></p>
+  <p align="center"><img src="kpd_schem.png" alt="KPD Schematic" width="700"/></p>
 
 - **ACC Schematic**  
-  <p align="center"><img src="images/acc-schematic.png" alt="ACC Schematic" width="500"/></p>
+  <p align="center"><img src="acc_schem.png" alt="ACC Schematic" width="700"/></p>
 
 ---
 
 ## 🖼️ Final Prototype Photos
 
-- **Assembled Devices (Front)**  
-  <p align="center"><img src="images/final-product-front.jpg" alt="Final Product Front View" width="400"/></p>
-
-- **Assembled Devices (Side/Angle)**  
-  <p align="center"><img src="images/final-product-side.jpg" alt="Final Product Side View" width="400"/></p>
+- **Assembled Devices**  
+  <p align="center"><img src="IMG-20240829-WA0019.jpg" width="400"/></p>
+  
+  <p align="center"><img src="IMG-20240829-WA0081.jpg" width="400"/></p>
 
 ---
 
