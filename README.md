@@ -71,22 +71,48 @@ The system works as follows:
 
 ## 🗂️ Schematics
 
-- **KPD Schematic**  
-  <p align="center"><img src="kpd_schem.png" alt="KPD Schematic" width="800"/></p>
-
-- **ACC Schematic**  
-  <p align="center"><img src="acc_schem.png" alt="ACC Schematic" width="800"/></p>
+<p align="center">
+  <img src="kpd_schem.png" alt="KPD Schematic" width="48%"/>
+  <img src="acc_schem.png" alt="ACC Schematic" width="48%"/>
+</p>
 
 ---
 
 ## 🖼️ Final Prototype Photos
 
 - **Assembled Devices**
+
 <p align="center">
   <img src="IMG-20240829-WA0019.jpg" width="48%"/>
   <img src="IMG-20240829-WA0081.jpg" width="48%"/>
 </p>
 
+---
+
+## 👥 Team & Experience
+
+We began this project during our **second semester**, starting with basic concepts and gradually building a working prototype.  
+
+- We **visited Sophia Hotel in Colombo** to gather real user observations and insights from their maintenance engineers.  
+- Our **initial design faced dimension issues**, which taught us valuable lessons in hardware integration and enclosure design.  
+- We redesigned the PCBs and casing to create a **robust and reliable second-generation prototype**.  
+- The project involved many **overnight development sessions**, balancing technical work and team coordination.  
+
+<p align="center">
+  <img src="team-photo.jpg" alt="Team SocketBurners" width="500"/>
+  <br/>
+  <em>Team SocketBurners during development</em>
+</p>
+
+---
+
+## 🏆 Awards & Achievements
+
+- 🥈 **1st Runner-up** – IESL Techno Spark Startup Competition 2024  
+- 🥈 **1st Runner-up** – GAP Circularity Challenge 2025 (Organized by INSEE)  
+- 🥉 **2nd Runner-up** – Future Innovators Challenge 2025 (IEEE Student Branch, UoM)  
+- 🏆 **Most Popular Innovation** – Future Innovators Challenge 2025 (IEEE Student Branch, UoM)  
+- 🎖️ **Finalists** – IESE Grant Scheme 2025  
 
 ---
 
