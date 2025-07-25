@@ -110,13 +110,19 @@ We began this project during our **second semester**, starting with basic concep
 
 ---
 
-## 🎬 Demo Video & Website
+## 🎥 Demo, Website & Resources
 
 - 📹 **Watch the Full Demo Video:**  
   🔗 [ECOSYNC Demo Video](https://drive.google.com/file/d/1JfGw0Y93dIrog_j1LMHH4Kcrz3Ky19dq/view?usp=sharing)
 
-- 🌐 **Visit Our Project Website:**  
+- 🌐 **Demo Website:**  
   🔗 [ECOSYNC Website](https://nadha.my.canva.site/ecosyn-socketburners)
+
+- 💻 **Source Code:**  
+  🔗 [ECOSYNC Code](Code) <!-- Replace with actual code folder or file link -->
+
+- 📄 **Project Documents:**  
+  🔗 [ECOSYNC Documents](Final Report.pdf) <!-- Replace with actual documents folder or file link -->
 
 ---
 
