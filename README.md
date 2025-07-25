@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="700"/>
+  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="500"/>
 </p>
 
 <h1 align="center">ECOSYNC</h1>
 <h3 align="center">An Automated Intelligent AC Temperature Regulator</h3>
 
 <p align="center">
-  <img src="SocetBurners.png" alt="SocketBurners Logo" width="500"/>
+  <img src="SocetBurners.png" alt="SocketBurners Logo" width="300"/>
   <br/>
   <strong>Team SocketBurners – University of Moratuwa</strong>
 </p>
@@ -81,10 +81,12 @@ The system works as follows:
 
 ## 🖼️ Final Prototype Photos
 
-- **Assembled Devices**  
-  <p align="center"><img src="IMG-20240829-WA0019.jpg" width="600"/></p>
-  
-  <p align="center"><img src="IMG-20240829-WA0081.jpg" width="600"/></p>
+- **Assembled Devices**
+<p align="center">
+  <img src="IMG-20240829-WA0019.jpg" width="48%"/>
+  <img src="IMG-20240829-WA0081.jpg" width="48%"/>
+</p>
+
 
 ---
 
