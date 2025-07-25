@@ -121,7 +121,7 @@ We began this project during our **second semester**, starting with basic concep
 - 💻 **Source Code:**  
   🔗 [ECOSYNC Code](Code) <!-- Replace with actual code folder or file link -->
 
-- 📄 **Project Documents:**  
+- 📄 **Project Report:**  
   🔗 [ECOSYNC Documents](Final_Report.pdf) <!-- Replace with actual documents folder or file link -->
 
 ---
@@ -129,7 +129,7 @@ We began this project during our **second semester**, starting with basic concep
 ## 👤 My Role
 
 - 👥 Leading and managing the team  
-- 🛠️ PCB design (KPD & ACC)  
+- 🛠️ PCB design (KPD & ACC)  using Altium Designer
 - 🎨 Brand designing and identity creation  
 - 💼 Business pitching and strategy  
 
@@ -139,6 +139,7 @@ We began this project during our **second semester**, starting with basic concep
 
 **Team:** SocketBurners  
 3rd Year Electronics & Telecommunication Engineering Undergraduates  
+[👉 View All Contributors](https://github.com/ahmedm0913/ECOSYNC/graphs/contributors)  
 **University of Moratuwa**
 
 <p align="center">
