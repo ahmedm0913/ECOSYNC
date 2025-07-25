@@ -6,7 +6,7 @@
 <h3 align="center">An Automated Intelligent AC Temperature Regulator</h3>
 
 <p align="center">
-  <img src="images/socketburners-logo.png" alt="SocketBurners Logo" width="120"/>
+  <img src="SocetBurners.png" alt="SocketBurners Logo" width="120"/>
   <br/>
   <strong>Team SocketBurners – University of Moratuwa</strong>
 </p>
