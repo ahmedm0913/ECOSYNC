@@ -110,28 +110,40 @@ We began this project during our **second semester**, starting with basic concep
 
 ---
 
-## 🎬 Demo Video
+## 🎬 Demo Video & Website
 
-Watch the full demo here:  
-🔗 [`ECOSYNC Demo Video`](https://drive.google.com/file/d/1JfGw0Y93dIrog_j1LMHH4Kcrz3Ky19dq/view?usp=sharing)
+- 📹 **Watch the Full Demo Video:**  
+  🔗 [ECOSYNC Demo Video](https://drive.google.com/file/d/1JfGw0Y93dIrog_j1LMHH4Kcrz3Ky19dq/view?usp=sharing)
+
+- 🌐 **Visit Our Project Website:**  
+  🔗 [ECOSYNC Website](https://nadha.my.canva.site/ecosyn-socketburners)
 
 ---
-## My Role  
-– Leading and managing the team  
-- PCB design (KPD & ACC)
-- Brand Designing
-- Business pitching
-  
+
+## 👤 My Role
+
+- 👥 Leading and managing the team  
+- 🛠️ PCB design (KPD & ACC)  
+- 🎨 Brand designing and identity creation  
+- 💼 Business pitching and strategy  
+
+---
+
 ## 🧑‍💻 Team & Credits
-**SocketBurners**  
-3rd year electronic and telecommunication engineering undergraduates  
-University of Moratuwa
+
+**Team:** SocketBurners  
+3rd Year Electronics & Telecommunication Engineering Undergraduates  
+**University of Moratuwa**
+
 <p align="center">
   <img src="484904085_122127235142612800_2873341187870754367_n (1).jpg" alt="Team SocketBurners" width="500"/>
   <br/>
   <em>Team SocketBurners</em>
 </p>
+
 ---
+
 <p align="center">
   <em>Built for energy efficiency. Engineered by SocketBurners.</em>
 </p>
+
