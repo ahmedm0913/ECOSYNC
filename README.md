@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ahmedm0913/ECOSYNC/gh-pages/ECOSYNC.png" alt="ECOSYNC Logo" width="500"/>
+  <img src="ECOSYNC.png" alt="ECOSYNC Logo" width="500"/>
 </p>
 
 <h1 align="center">ECOSYNC</h1>
 <h3 align="center">An Automated Intelligent AC Temperature Regulator</h3>
 
 <p align="center">
-  <img src="gh-pages/SocetBurners.png" alt="SocketBurners Logo" width="300"/>
+  <img src="SocetBurners.png" alt="SocketBurners Logo" width="300"/>
   <br/>
   <strong>Team SocketBurners – University of Moratuwa</strong>
 </p>
@@ -52,30 +52,30 @@ The system works as follows:
 ### 🔷 Keycard Presence Detector (KPD)
 
 - **Top View**  
-  <p align="center"><img src="gh-pages/sm_black_top (1).png" alt="KPD PCB" width="500"/></p>
+  <p align="center"><img src="sm_black_top (1).png" alt="KPD PCB" width="500"/></p>
 
 - **Bottom View**  
-  <p align="center"><img src="gh-pages/sm_black_bottom (1).png" alt="KPD Bottom View" width="500"/></p>
+  <p align="center"><img src="sm_black_bottom (1).png" alt="KPD Bottom View" width="500"/></p>
 
 ---
 
 ### 🔶 AC Controller (ACC)
 
 - **Top View**  
-  <p align="center"><img src="gh-pages/sm_black_top.png" alt="ACC Top View" width="500"/></p>
+  <p align="center"><img src="sm_black_top.png" alt="ACC Top View" width="500"/></p>
 
 - **Bottom View**  
-  <p align="center"><img src="gh-pages/sm_black_bottom.png" alt="ACC Bottom View" width="500"/></p>
+  <p align="center"><img src="sm_black_bottom.png" alt="ACC Bottom View" width="500"/></p>
 
 ---
 
 ## 🗂️ Schematics
 
 - **KPD Schematic**  
-  <p align="center"><img src="gh-pages/kpd_schem.png" alt="KPD Schematic" width="800"/></p>
+  <p align="center"><img src="kpd_schem.png" alt="KPD Schematic" width="800"/></p>
 
 - **ACC Schematic**  
-  <p align="center"><img src="gh-pages/acc_schem.png" alt="ACC Schematic" width="800"/></p>
+  <p align="center"><img src="acc_schem.png" alt="ACC Schematic" width="800"/></p>
 ---
 
 ## 🖼️ Final Prototype Photos
@@ -83,8 +83,8 @@ The system works as follows:
 - **Assembled Devices**
 
 <p align="center">
-  <img src="gh-pages/IMG-20240829-WA0019.jpg" width="48%"/>
-  <img src="gh-pages/IMG-20240829-WA0081.jpg" width="48%"/>
+  <img src="IMG-20240829-WA0019.jpg" width="48%"/>
+  <img src="IMG-20240829-WA0081.jpg" width="48%"/>
 </p>
 
 ---
@@ -93,7 +93,7 @@ The system works as follows:
 
 We began this project during our **second semester**, starting with basic concepts and gradually building a working prototype.  
 
-- We **visited Sophia Hotel in Colombo** to gather real user observations and insights from their maintenance engineers.  
+- We **visited the Sophia Hotel in Colombo** to gather real user observations and insights from their maintenance engineers.  
 - Our **initial design faced dimension issues**, which taught us valuable lessons in hardware integration and enclosure design.  
 - We redesigned the PCBs and casing to create a **robust and reliable second-generation prototype**.  
 - The project involved many **overnight development sessions**, balancing technical work and team coordination.  
@@ -144,7 +144,7 @@ We began this project during our **second semester**, starting with basic concep
 
 
 <p align="center">
-  <img src="gh-pages/484904085_122127235142612800_2873341187870754367_n (1).jpg" alt="Team SocketBurners" width="500"/>
+  <img src="484904085_122127235142612800_2873341187870754367_n (1).jpg" alt="Team SocketBurners" width="500"/>
   <br/>
   <em>Team SocketBurners</em>
 </p>
